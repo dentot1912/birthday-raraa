@@ -2320,7 +2320,7 @@ function FinalSection({
    PIN LOCK SCREEN — Secret Birthday Gate with Flower Blooming Scene
    ═══════════════════════════════════════════════════════════════════════════ */
 
-const SECRET_PIN = '2000';
+const SECRET_PIN = '251008';
 
 function PinLockScreen({ onUnlock, onBlooming }: { onUnlock: () => void; onBlooming: () => void }) {
   const [pin, setPin] = useState('');
