@@ -19,9 +19,9 @@ gsap.registerPlugin(ScrollTrigger);
    CONFIG
    ═══════════════════════════════════════════════════════════════════════════ */
 const BIRTHDAY_DATE = new Date('2026-07-03T00:00:00');
-const NAME = 'cantikk';
+const NAME = 'Raraa';
 const SENDER_NAME = 'Aku ❤️';
-const YOUTUBE_MUSIC_ID = 'awWKxGftWh4'; // https://www.youtube.com/watch?v=awWKxGftWh4
+const YOUTUBE_MUSIC_ID = 'HEAn4FqXFY4'; // https://www.youtube.com/watch?v=awWKxGftWh4
 
 declare global {
   interface Window {
@@ -66,10 +66,8 @@ const IMG = {
 const WISHES = [
   { Icon: Smile, title: 'Kebahagiaan Abadi', text: 'Semoga setiap harimu selalu dipenuhi senyum manis dan tawa bahagia bersamaku.' },
   { Icon: Sun, title: 'Kesehatan & Keselamatan', text: 'Semoga kamu selalu diberikan tubuh yang sehat, bugar, dan penuh semangat setiap hari.' },
-  { Icon: Flower2, title: 'Perlindungan Allah', text: 'Semoga Allah senantiasa menjagamu dan melindungimu ke mana pun langkahmu pergi.' },
   { Icon: Wind, title: 'Kedamaian Hati', text: 'Semoga hatimu selalu tenang, damai, dan bebas dari segala rasa cemas maupun lelah.' },
-  { Icon: Star, title: 'Iman yang Semakin Kuat', text: 'Semoga keimanan dan ketaatanmu kepada Allah semakin bertambah indah seiring waktu.' },
-  { Icon: Sparkles, title: 'Doa-doa Terkabul', text: 'Semoga segala doa yang kau bisikkan dalam sujud didengar dan dikabulkan dengan cara terindah.' },
+  { Icon: Sparkles, title: 'Doa-doa Terkabul', text: 'Semoga segala doa yang kau bisikkan didengar dan dikabulkan dengan cara terindah.' },
   { Icon: Gem, title: 'Impian Jadi Kenyataan', text: 'Semoga satu per satu cita-cita dan impian besarmu terwujud dengan mudah dan lancar.' },
   { Icon: Flame, title: 'Kekuatan Tanpa Batas', text: 'Semoga setiap tantangan yang hadir justru menjadikanmu wanita yang semakin tangguh dan hebat.' },
   { Icon: Heart, title: 'Cinta yang Tulus', text: 'Semoga kamu selalu merasakan betapa dalamnya rasa cantikk dan cinta tulusku untukmu.' },
@@ -89,37 +87,37 @@ const WISHES = [
       Icon: Sparkles,
       label: "Photobox ceunah",
       desc: "Momen seru berpose bareng di photobox, mengabadikan ekspresi lucu dan senyum manis kita berdua.",
-      img: "images/img1.jpeg",
-    },
-    {
-      Icon: GraduationCap,
-      label: "Wisuda profesi josjiss",
-      desc: "Momen membanggakan di hari kelulusan profesimu, ikut bahagia dan bangga melihat pencapaian hebatmu.",
-      img: "images/img2.jpeg",
-    },
-    {
-      Icon: Flame,
-      label: "Rakum with u",
-      desc: "Petualangan seru camping di Ranu Kumbolo, menikmati dinginnya udara dan hangatnya kebersamaan kita.",
-      img: "images/img3.jpeg",
-    },
-    {
-      Icon: Moon,
-      label: "XXI edition",
-      desc: "Kencan santai nonton film favorit di bioskop, ditemani popcorn dan obrolan seru berdua.",
-      img: "images/img4.jpeg",
-    },
-    {
-      Icon: Bike,
-      label: "Merbabu with u",
-      desc: "Perjalanan mendaki dan menaklukkan jalur Gunung Merbabu bersamamu, lelahnya terbayar dengan pemandangan dan momen indah.",
-      img: "images/img5.jpeg",
+      img: "/images/WhatsApp Image 2026-10-24 at 19.33.32 (4).jpeg",
     },
     {
       Icon: Heart,
-      label: "Yang ini inget ga kapan wkwk",
-      desc: "Momen manis yang penuh kenangan tak terlupakan, salah satu cerita indah dari perjalanan kisah kita.",
-      img: "images/img6.jpeg",
+      label: "Cafe date with u",
+      desc: "Momen ngobrol santai dan selfie cermin bareng di kafe favorit, selalu hangat dan penuh tawa.",
+      img: "/images/WhatsApp Image 2026-10-24 at 19.33.32 (16).jpeg",
+    },
+    {
+      Icon: Moon,
+      label: "Night walk & flowers",
+      desc: "Jalan santai di malam hari ditemani buket bunga cantik dan senyum manismu yang menerangi malam.",
+      img: "/images/WhatsApp Image 2026-10-24 at 19.33.32 (1).jpeg",
+    },
+    {
+      Icon: Sparkles,
+      label: "Mall date vibes",
+      desc: "Kencan santai jalan-jalan berdua, mengabadikan momen mirror selfie yang penuh warna.",
+      img: "/images/WhatsApp Image 2026-10-24 at 19.33.32 (18).jpeg",
+    },
+    {
+      Icon: Flame,
+      label: "Coffee time & notes",
+      desc: "Duduk santai sambil ngopi dan berdiskusi, menikmati quality time sederhana yang berharga.",
+      img: "/images/WhatsApp Image 2026-10-24 at 19.33.32 (11).jpeg",
+    },
+    {
+      Icon: Heart,
+      label: "Bergandengan tangan",
+      desc: "Bayangan langkah kita yang selalu searah dan saling menggenggam, melangkah bersama ke depan.",
+      img: "/images/WhatsApp Image 2026-10-24 at 19.33.32 (10).jpeg",
     },
   ];
 
@@ -620,8 +618,8 @@ function HeroSection({ onCelebrate, active = false }: { onCelebrate: () => void;
             }}
           >
             <img
-              src="images/head.jpeg"
-              alt=""
+              src="/images/WhatsApp Image 2026-10-24 at 19.33.32.jpeg"
+              alt="Birthday Queen"
               className="img-cover"
               style={{
                 width: "100%",
@@ -807,7 +805,7 @@ function LetterSection() {
         }}>
           <div className="polaroid-washi" style={{ background: 'rgba(212,137,154,0.28)' }} />
           <div className="polaroid-photo" style={{ height: 'clamp(320px, 45vh, 460px)' }}>
-            <img src='images/surat.jpeg' alt="Love letter" className="img-cover" />
+            <img src='/images/WhatsApp Image 2026-10-24 at 19.33.32 (14).jpeg' alt="Love letter" className="img-cover" />
           </div>
         </div>
 
@@ -996,40 +994,33 @@ function LetterSection() {
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 14, fontSize: 15, lineHeight: 1.95, color: C.textM, fontFamily: SANS }}>
                   <p data-letter-line>
-                    Halloo cantikkk!<br />
-                    Welcome back!
+                    Halloo cantikkku!<br />
+                    Selamat bertambah usia, bidadari hatiku 🥰✨
                   </p>
 
                   <p data-letter-line style={{ color: C.text }}>
-                    Untuk yang abis naik merbabuu nihhh<br />
-                    Selamat sudah sampai bawah lagi dengan selamat, mas kangen hehe!
+                    Di hari yang begitu istimewa ini, aku cuma mau bilang betapa bersyukurnya aku punya kamu di hidupku. Kehadiranmu selalu membawa warna, tawa, dan kehangatan yang bikin hariku jauh lebih indah.
                   </p>
 
                   <p data-letter-line>
-                    Mas awali pake bismillah ya wkwkkw<br />
-                    Mas harap hari ini dan seterusnya memberimu banyak kebahagiaan dan kesenangan.
+                    Terima kasih ya sudah selalu ada, sudah jadi pendengar yang baik, dan sudah mengisi setiap hariku dengan senyum manismu yang ga pernah gagal bikin aku jatuh cinta lagi dan lagi.
                   </p>
 
                   <p data-letter-line style={{ color: C.text }}>
-                    Mmmmm.. makasiiii banyak banyak sudah hadir dan menemani perjalanan takdir ini.
+                    Mmmmm.. makasiii banyak banyak sudah memilih untuk berjuang dan melangkah bareng aku. Aku yakin kita bisa lewati semuanya sama-sama dan meraih masa depan yang indah di depan nanti 🥹🤍
                   </p>
 
                   <p data-letter-line>
-                    Aku yakin kita bisa melewati semuanya bareng-bareng dan mendapati hal yang luar biasa baiknya di depan nanti 🥹
+                    Sekali lagi selamat ulang tahun yaa sayangku! 🎂🎉<br />
+                    Semoga kamu selalu diberikan kesehatan, umur yang panjang dan berkah, dilancarkan segala impian dan urusanmu, serta selalu dikelilingi kebahagiaan yang melimpah setiap harinya.
                   </p>
 
                   <p data-letter-line style={{ color: C.text }}>
-                    Sekali lagi selamat ulang tahun cantikkku 🥰🤍<br />
-                    Semoga Allah memberimu panjang umur, sehat selalu, dijauhkan dari segala penyakit dan marabahaya, dimudahkan jalanmu, dilancarkan segala urusanmu, dikabulkan segala do&apos;a mu.<br />
-                    Aamiin Allahumma Aamiin.
-                  </p>
-
-                  <p data-letter-line>
-                    Semoga perasaan kamu ke aku gapernah berubah ya, tetap sabar sama aku, tetap kuat di tengah masalah apapun yang akan datang kedepannya.
+                    Tetap jadi dirimu yang manis, penyayang, dan luar biasa. Semoga rasa sayang kita selalu tumbuh semakin erat seiring berjalannya waktu.
                   </p>
 
                   <p data-letter-line style={{ fontWeight: 600, color: C.blushD, fontStyle: 'italic' }}>
-                    I will be the man who gives u the love deserve. The man who makes u feel the luckiest girl ✨
+                    I will always be the one who loves you, supports you, and makes you feel like the luckiest girl in the world ✨🤍
                   </p>
 
                   {/* Signature */}
@@ -1040,7 +1031,7 @@ function LetterSection() {
                   }}>
                     <div>
                       <span style={{ fontFamily: SERIF, fontSize: '1.45em', fontStyle: 'italic', color: C.blushD, fontWeight: 600 }}>- 911</span>
-                      <p style={{ fontSize: 12, color: C.textL, marginTop: 4 }}>10 Okt 2026</p>
+                      <p style={{ fontSize: 12, color: C.textL, marginTop: 4 }}>25 Okt 2026</p>
                     </div>
                     <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
                       {[Flower2, Heart, Flower2].map((Ic, i) => (
@@ -1419,75 +1410,69 @@ function WishesSection() {
 /* ── Gallery data with span information for masonry feel ── */
 const GALLERY_ITEMS = [
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.21.jpeg',
-    label: 'Beautiful Moments',
-    desc: 'Setiap momen indah bersamamu selalu terasa istimewa.',
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (3).jpeg',
+    label: 'Vinyl & Memories',
+    desc: 'Pose manis berdua di dinding piringan hitam penuh kenangan.',
     Icon: Heart, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.21 (1).jpeg',
-    label: 'Sweet Smiles',
-    desc: 'Senyuman manismu yang selalu menghangatkan hati.',
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (5).jpeg',
+    label: 'Cheeky Smiles',
+    desc: 'Ekspresi gemas dan tawa lepas saat photobox bareng.',
     Icon: Sparkles, accent: '#d4899a', tag: 'Memories', rowSpan: 1,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.21 (2).jpeg',
-    label: 'Pure Joy',
-    desc: 'Tawa dan kebahagiaan yang kita bagikan bersama.',
-    Icon: Heart, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (7).jpeg',
+    label: 'Anggun & Memesona',
+    desc: 'Pesona bidadari cantikk dalam balutan busana yang anggun.',
+    Icon: Heart, accent: '#e098ae', tag: 'Memories', rowSpan: 2,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.21 (3).jpeg',
-    label: 'Cherished Day',
-    desc: 'Hari-hari penuh warna dan kenangan berharga.',
-    Icon: Star, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (9).jpeg',
+    label: 'Funny Glasses',
+    desc: 'Kacamata unik dan ekspresi paling lucu yang selalu bikin kangen.',
+    Icon: Star, accent: '#c9a96e', tag: 'Memories', rowSpan: 1,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.22.jpeg',
-    label: 'Lovely Time',
-    desc: 'Saat-saat sederhana yang berubah menjadi luar biasa bersamamu.',
-    Icon: Heart, accent: '#d4899a', tag: 'Memories', rowSpan: 1,
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (12).jpeg',
+    label: 'Sweet Silhouette',
+    desc: 'Senyum manis sambil memainkan rambut di samping rak musik.',
+    Icon: Heart, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.22 (1).jpeg',
-    label: 'Sweet Memory',
-    desc: 'Kenangan manis yang akan selalu tersimpan abadi.',
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (13).jpeg',
+    label: 'Zodiac Mirror',
+    desc: 'Mirror selfie santai dengan latar rasi bintang yang estetik.',
     Icon: Sparkles, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.22 (2).jpeg',
-    label: 'Happy Vibes',
-    desc: 'Selalu ada tawa dan kehangatan di setiap langkah kita.',
-    Icon: Heart, accent: '#c9a96e', tag: 'Memories', rowSpan: 2,
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (17).jpeg',
+    label: 'Shopping Date',
+    desc: 'Mirror selfie berdua waktu belanja baju bareng, seru dan gemas.',
+    Icon: Star, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
   },
   {
-    src: '/images/gallerys/WhatsApp Video 2026-10-09 at 21.40.25.mp4',
-    label: 'Video Moment',
-    desc: 'Momen video spesial penuh kebersamaan dan tawa.',
-    Icon: Play, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (8).jpeg',
+    label: 'Gift Hunting',
+    desc: 'Momen manis mencari kado dan hadiah istimewa.',
+    Icon: Sparkles, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.40.26.jpeg',
-    label: 'Precious Time',
-    desc: 'Setiap detik bersamamu adalah anugerah terindah.',
-    Icon: Star, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
-  },
-  {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.44.13.jpeg',
-    label: 'Endless Smile',
-    desc: 'Senyum yang selalu menjadi alasan hari-hariku lebih cerah.',
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32 (2).jpeg',
+    label: 'Butterfly Charm',
+    desc: 'Jepit kupu-kupu manis di rambutmu yang selalu mencuri perhatian.',
     Icon: Heart, accent: '#c9a96e', tag: 'Memories', rowSpan: 1,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.44.114.jpeg',
-    label: 'Special Day',
-    desc: 'Momen spesial di hari yang begitu istimewa.',
+    src: '/images/WhatsApp Image 2026-10-24 at 19.33.32.jpeg',
+    label: 'Special Bouquet',
+    desc: 'Tatapan manis memeluk buket bunga di hari yang penuh cinta.',
     Icon: Sparkles, accent: '#d4899a', tag: 'Memories', rowSpan: 2,
   },
   {
-    src: '/images/gallerys/WhatsApp Image 2026-10-09 at 21.44.123.jpeg',
-    label: 'Together Always',
-    desc: 'Bersama mengukir kisah manis yang tak akan pernah terlupakan.',
+    src: '/images/footer.jpeg',
+    label: 'Red Spotlight',
+    desc: 'Momen photobox dengan nuansa tirai merah yang hangat dan manis.',
     Icon: Heart, accent: '#e098ae', tag: 'Memories', rowSpan: 1,
   },
 ];
@@ -2276,7 +2261,7 @@ function FinalSection({
       {/* Background image */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
         <img
-          src="images/footer.jpeg"
+          src="/images/footer.jpeg"
           alt="Footer background"
           style={{
             width: '100%',
