@@ -1011,12 +1011,12 @@ function LetterSection() {
                   </p>
 
                   <p data-letter-line>
-                    Sekali lagi selamat ulang tahun yaa sayangku! 🎂🎉<br />
+                    Sekali lagi selamat ulang tahun yaa raraa! 🎂🎉<br />
                     Semoga kamu selalu diberikan kesehatan, umur yang panjang dan berkah, dilancarkan segala impian dan urusanmu, serta selalu dikelilingi kebahagiaan yang melimpah setiap harinya.
                   </p>
 
                   <p data-letter-line style={{ color: C.text }}>
-                    Tetap jadi dirimu yang manis, penyayang, dan luar biasa. Semoga rasa sayang kita selalu tumbuh semakin erat seiring berjalannya waktu.
+                    Tetap jadi dirimu yang manis, penyayang, dan luar biasa
                   </p>
 
                   <p data-letter-line style={{ fontWeight: 600, color: C.blushD, fontStyle: 'italic' }}>
